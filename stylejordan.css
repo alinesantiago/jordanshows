@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+} 
+
+.body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+.header1{
+padding-top: 15px;
+padding-bottom: 15px;
+width: 100%;
+background: #181818;
+font-size: 16px;
+color: #f9f9f9;
+text-align: center;
+font-weight: 500;
+}
+
+.header2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    background: #f9f9f9;
+    font-size: 24px;
+    color: #181818;
+    text-align: center;
+    font-weight: 600;
+    }
+
+.wallpapper{
+    filter: brightness(50%);
+    width: 100%;
+    height: 378px;
+    object-fit: cover;
+}
+
+.container1{
+    display: flex;
+    align-items: center;
+}
+
+.titulo{
+    font-size: 32px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.sobre{
+    font-size: 18px;
+}
+
+.texto1{
+    position: absolute;
+    color: #F9F9F9;
+    width: 40%;
+    padding-left: 81px;
+}
+
+.texto2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.container-produtos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:39px 13px;
+}
+
+.caixa-produto{
+    display: flex;
+    width: 300px;
+    height: 302px;
+    background-color: #EBE9EA;  
+    align-items: center;
+    justify-content: center;
+}
+
+.produto{
+    width: 250px;
+    height: 150px;
+}
+
+
+.rodape{
+    padding-top: 15px;
+    margin-top: 100px;
+    padding-bottom: 15px;
+    width: 100%;
+    background: #181818;
+    font-size: 16px;
+    color: #f9f9f9;
+    text-align: center;
+    font-weight: 500;
+    }
