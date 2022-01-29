@@ -4,6 +4,20 @@
     <title> Jordan Shoes </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./stylejordan.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed('#typed'{
+            stringsElement: '#typed-strings',
+            typeSpeed: 30
+        });
+    </script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -20,15 +34,19 @@
         <img class="wallpapper" src="./img/wallpaper.jpeg">
         <div class="texto1">
             <div class="titulo">A melhor loja de Jordan</div>
-            <div class="sobre"> O tênis Jordan é fruto de uma velha e forte parceria entre a Nike e o jogador Michael
-                Jordan.</div>
+            <div id="typed">
+                <p class="sobre" id="typed-strings">O tênis Jordan é fruto de uma velha e forte parceria entre a Nike e o jogador
+                    Michael
+                    Jordan</p>
+            </div>
         </div>
     </div>
 
     <div class="container2">
         <div class="texto2">
             <div style="font-size: 32px; line-height: 1.8;"> Destaques </div>
-            <div style="font-size: 18px; color: #474747" >Frete grátis e chinelo de brinde é aqui, aproveite por tempo limitado. </div>
+            <div style="font-size: 18px; color: #474747">Frete grátis e chinelo de brinde é aqui, aproveite por tempo
+                limitado. </div>
         </div>
 
         <div class="container-produtos">
@@ -78,6 +96,21 @@
     <footer class="rodape">
         Todos os direitos reservados.
     </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+                const sr = ScrollReveal({
+                    origin: 'top',
+                    distance: '50px',
+                    duration: 2000,
+                    reset: true
+                });
+        
+                ScrollReveal().reveal('.caixa-produto', { delay: 200 });
+                ScrollReveal().reveal('.texto2', { delay: 400 });
+                ScrollReveal().reveal('.titulo', { delay: 500 });
+                ScrollReveal().reveal('.sobre', { delay: 600 });
+        </script>
+        
 </body>
 
 </html>
