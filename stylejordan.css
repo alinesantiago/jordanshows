@@ -125,6 +125,9 @@ font-weight: 500;
          transition: 1s all ease; 
         }
 
-@media screen {
+@media screen and (max-width: 500px)  {
+    .texto1{
+    width: 95%;
+    padding-left: 20px;
     
 }
